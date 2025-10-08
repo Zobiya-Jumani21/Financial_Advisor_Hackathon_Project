@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
-// 🔥 Your Firebase config
+//  Your Firebase config
 const firebaseConfig = {
   apiKey: "AIzaSyDzSslIBjGTaUoGs6XMYSwSiPcszNoBofA",
   authDomain: "investment-portfolio-app-e68e9.firebaseapp.com",

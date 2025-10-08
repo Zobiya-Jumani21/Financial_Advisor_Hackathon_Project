@@ -68,7 +68,6 @@ function Header() {
                             });
                         }
                         else {
-                            // fallback to email if no name
                             setUser({ name: firebaseUser.email || "User" });
                         }
                         return [3 /*break*/, 4];
@@ -108,6 +107,7 @@ function Header() {
                 React.createElement("nav", { className: "hidden md:flex items-center space-x-6" },
                     React.createElement(link_1["default"], { href: "/", className: "text-muted-foreground hover:text-foreground transition-colors" }, "Home"),
                     React.createElement(link_1["default"], { href: "/results", className: "text-muted-foreground hover:text-foreground transition-colors" }, "Portfolio"),
+                    React.createElement(link_1["default"], { href: "/Investment-info", className: "text-muted-foreground hover:text-foreground transition-colors" }, "About Investments"),
                     user ? (React.createElement(React.Fragment, null,
                         React.createElement("button", { onClick: function () { return setDropdownOpen(!dropdownOpen); }, className: "flex items-center space-x-2 rounded-md hover:bg-muted px-3 py-1 transition" },
                             React.createElement("span", { className: "text-sm text-foreground font-medium" }, user.name)),
