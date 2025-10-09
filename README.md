@@ -16,8 +16,6 @@ Our goal is to make investment planning **simple, understandable, and accessible
 * To promote financial literacy and responsible saving habits.
 * To support sustainable economic growth by encouraging digital financial management.
 
----
-
 ### ⚙️ Technology Stack
 
 #### **Frontend**
@@ -29,7 +27,6 @@ Our goal is to make investment planning **simple, understandable, and accessible
 * **Firebase Authentication** – for secure login, signup, and session handling.
 * **Firebase Firestore (NoSQL Database)** – to store user data, investment inputs, and portfolio recommendations.
 
----
 
 ### 🧭 How It Works
 1. **User Input:**
@@ -40,7 +37,7 @@ Our goal is to make investment planning **simple, understandable, and accessible
    The output section displays a **portfolio summary** showing how much percentage of the total budget should go to each investment option.
    Users can view their **allocation chart** and insights for better understanding.
 
----
+
 
 ### 📊 Investment Strategies
 1. **Risk-Based Allocation Strategy**
@@ -81,7 +78,6 @@ Our goal is to make investment planning **simple, understandable, and accessible
 * Responsive UI built with Tailwind CSS
 * Easy to use and beginner-friendly interface
 
----
 
 ### 🧑‍💻 Installation & Setup
 
