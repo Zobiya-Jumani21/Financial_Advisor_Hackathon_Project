@@ -1,4 +1,4 @@
-### GrowWise- Smart Financial Aid & Investment Advisor
+### FinSmart- Investment Advisor
 
 ### 🧩 Project Overview
 
