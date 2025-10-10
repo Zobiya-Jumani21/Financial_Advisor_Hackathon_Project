@@ -8,7 +8,7 @@ export function Footer() {
               <div className="w-6 h-6 bg-gradient-to-br from-primary to-secondary rounded flex items-center justify-center">
                 <span className="text-white font-bold text-sm">F</span>
               </div>
-              <span className="font-bold text-foreground">Financial Advisor</span>
+              <span className="font-bold text-foreground">FinSmart</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Smart investment recommendations tailored to your financial goals.
@@ -55,7 +55,7 @@ export function Footer() {
 
         <div className="border-t mt-8 pt-8 text-center">
           
-          <p className="text-xs text-muted-foreground mt-2">© 2025 FinanceWise. All rights reserved.</p>
+          <p className="text-xs text-muted-foreground mt-2">© 2025 FinaSmart. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -29,7 +29,7 @@ function HomePage() {
             React.createElement("section", { className: "py-16 bg-muted/30" },
                 React.createElement("div", { className: "container mx-auto px-4" },
                     React.createElement("div", { className: "text-center mb-12" },
-                        React.createElement("h2", { className: "text-3xl font-bold text-balance mb-4" }, "Why Choose Financial Advisor?")),
+                        React.createElement("h2", { className: "text-3xl font-bold text-balance mb-4" }, "Why Choose FinSmart?")),
                     React.createElement("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-8" },
                         React.createElement(card_1.Card, { className: "text-center hover:shadow-lg transition-shadow duration-300" },
                             React.createElement(card_1.CardContent, { className: "p-6" },

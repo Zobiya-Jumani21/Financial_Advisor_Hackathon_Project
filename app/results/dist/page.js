@@ -1,6 +1,3 @@
-// "use client" //runs in the browser, not the server.
-// //useEffects. runs code after the page loads (like “get my data”).
-// //useState → remembers information like portfolio and loading state.
 "use client";
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
@@ -43,7 +40,7 @@ exports.__esModule = true;
 var react_1 = require("react");
 var navigation_1 = require("next/navigation");
 var header2_1 = require("@/components/header2");
-var footer_1 = require("@/components/footer");
+var footer1_1 = require("@/components/footer1");
 var portfolio_chart_1 = require("@/components/portfolio-chart");
 var investment_card_1 = require("@/components/investment-card");
 var button_1 = require("@/components/ui/button");
@@ -104,7 +101,7 @@ function ResultsPage() {
                 React.createElement("div", { className: "text-center" },
                     React.createElement("div", { className: "w-8 h-8 border-2 border-primary/30 border-t-primary rounded-full animate-spin mx-auto mb-4" }),
                     React.createElement("p", { className: "text-muted-foreground" }, "Loading your portfolio recommendations..."))),
-            React.createElement(footer_1.Footer, null)));
+            React.createElement(footer1_1.Footer, null)));
     }
     if (!portfolio) {
         return (React.createElement("div", { className: "min-h-screen flex flex-col" },
@@ -114,7 +111,7 @@ function ResultsPage() {
                     React.createElement("h2", { className: "text-2xl font-bold mb-4" }, "No Portfolio Data Found"),
                     React.createElement("p", { className: "text-muted-foreground mb-6" }, "Please complete the form to get your recommendations."),
                     React.createElement(button_1.Button, { onClick: function () { return router.push("/"); } }, "Get Started"))),
-            React.createElement(footer_1.Footer, null)));
+            React.createElement(footer1_1.Footer, null)));
     }
     return (React.createElement("div", { className: "min-h-screen flex flex-col" },
         React.createElement(header2_1.Header, null),
@@ -181,6 +178,6 @@ function ResultsPage() {
                         React.createElement("div", { className: "flex flex-col sm:flex-row gap-4 justify-center" },
                             React.createElement(button_1.Button, { size: "lg", onClick: handleRecalculate, className: "text-base" }, "Recalculate Portfolio"),
                             React.createElement(button_1.Button, { size: "lg", variant: "outline", className: "text-base bg-transparent", disabled: true }, "Download Report (Coming Soon)")))))),
-        React.createElement(footer_1.Footer, null)));
+        React.createElement(footer1_1.Footer, null)));
 }
 exports["default"] = ResultsPage;

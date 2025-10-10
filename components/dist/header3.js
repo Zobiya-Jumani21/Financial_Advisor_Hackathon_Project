@@ -9,7 +9,7 @@ function Header() {
                 React.createElement(link_1["default"], { href: "", className: "flex items-center space-x-2" },
                     React.createElement("div", { className: "w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center" },
                         React.createElement("span", { className: "text-white font-bold text-lg" }, "F")),
-                    React.createElement("span", { className: "text-xl font-bold text-foreground" }, "Financial Advisor")),
+                    React.createElement("span", { className: "text-xl font-bold text-foreground" }, "FinSmart")),
                 React.createElement("nav", { className: "hidden md:flex items-center space-x-6" },
                     React.createElement("p", { className: "text-center font-bold text-lg" },
                         React.createElement("strong", null, "Sign Up Now And Save Your's Money")),
